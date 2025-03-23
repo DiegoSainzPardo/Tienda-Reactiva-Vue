@@ -1,3 +1,6 @@
+## Ejecución
+- npm install
+- npm run dev
 
 # Tienda Online con Vue - Sistema de Inventario
 
