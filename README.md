@@ -18,5 +18,7 @@ pip install flask flask_cors graphene
 python app.py
 
 cd ../frontend
+
 npm install
+
 npm run dev
