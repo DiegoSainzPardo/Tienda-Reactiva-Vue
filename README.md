@@ -23,9 +23,7 @@ npm install
 
 npm run dev
 
-### 3. Disfrutar
-
-### 4. Preguntas
+### 3. Preguntas
 
 ### ¿Qué ventajas ofrece GraphQL sobre REST en este contexto?
 
