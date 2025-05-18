@@ -15,7 +15,7 @@ cd backend
 pip install flask flask_cors graphene
 
 ### 2. Ejecutar Servidor
-python app.py
+python.exe app.py
 
 cd ../frontend
 
