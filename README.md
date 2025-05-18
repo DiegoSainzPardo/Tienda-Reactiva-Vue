@@ -46,4 +46,11 @@ npm run dev
       stock = Int()
       available = Boolean()
 
+### ¿Por qué es importante que el backend también actualice disponible y no depender solo del frontend?
+
+Es crucial que el backend maneje la lógica de disponibilidad (disponible) porque garantiza la integridad de los datos en todo el sistema. Si solo el frontend decide cuándo un producto está disponible, se corre el riesgo de que otros clientes o servicios consuman información desactualizada o incorrecta. Al centralizar esta lógica en el servidor, se asegura que cualquier cambio en el stock refleje inmediatamente y de forma coherente si un producto está disponible, sin importar desde dónde se realice la operación (por ejemplo, desde una app móvil, otro frontend, o una API externa).
+
+### ¿Cómo garantizas que la lógica de actualización de stock y disponibilidad sea coherente?
+
+Para garantizar coherencia, la lógica que actualiza el stock también debe encargarse de revisar y ajustar el estado de disponibilidad en una sola operación transaccional. Esto evita inconsistencias que podrían surgir si estas actualizaciones se realizan por separado. Además, al tener una única fuente de verdad en el backend, se minimiza el riesgo de errores y se asegura que todas las aplicaciones cliente vean el mismo estado del inventario. Esta práctica también facilita el mantenimiento y la escalabilidad del sistema a largo plazo.
   
