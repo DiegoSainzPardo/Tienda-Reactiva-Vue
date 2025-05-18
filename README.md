@@ -2,7 +2,7 @@
 
 Aplicación para gestionar inventario de productos usando un backend en Flask con GraphQL (`graphene`) y un frontend en Vue.js.
 
-## 🔧 Instalación y ejecución
+## Instalación y ejecución
 
 ### 1. Clonar repositorio
 
@@ -22,3 +22,7 @@ cd ../frontend
 npm install
 
 npm run dev
+
+### 3. Disfrutar
+
+### 4. Preguntas
