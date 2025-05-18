@@ -6,9 +6,12 @@ Aplicación para gestionar inventario de productos usando un backend en Flask co
 
 ### 1. Clonar repositorio
 
-git clone https://github.com/DiegoSainzPardo/Tienda-Reactiva-Vue.git \n
+git clone https://github.com/DiegoSainzPardo/Tienda-Reactiva-Vue.git
+
 cd Tienda-Reactiva-Vue
+
 cd backend
+
 pip install flask flask_cors graphene
 
 ### 2. Ejecutar Servidor
